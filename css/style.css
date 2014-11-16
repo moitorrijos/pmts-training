@@ -1664,10 +1664,17 @@ form#loginform {
 .manila-ammendment li a {
     display: block;
     text-decoration: none;
-    background: #FBFBFB;
+    background: url(../images/icons/check.png) left top no-repeat #EBEBEB;
     padding: 0.8em 0.5em;
+    padding-left: 3em;
     border-bottom: 1px solid rgb(163, 199, 163);
-}   
+    color: #2592F1;
+}
+
+.manila-ammendment li a:hover {
+    background: #D3D3D3;
+    color: #258ee2;
+}
 
 .manila-ammendment li a:visited{
     background: url(../images/icons/check.png) top right no-repeat #C4FED3;

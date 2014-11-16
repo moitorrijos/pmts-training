@@ -273,5 +273,3 @@ function get_pagination($range = 7){
   }
 }
 
-
-?>
