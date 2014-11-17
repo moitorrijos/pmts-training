@@ -1696,3 +1696,25 @@ form#loginform {
     color: #ffffff;
     background: #4B8FAF;
 }
+
+table#instructors {
+    font-size: 16px;
+}
+
+table#instructors tr th {
+    background: #CACACA;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+table#instructors tr td:nth-child(2), table#instructors tr td:nth-child(3), table#instructors tr td:nth-child(4) {
+    text-align: center;
+}
+
+table#instructors tr td:nth-child(4) {
+    width: 120px;
+}
+
+table#instructors tr:nth-child(odd) {
+    background: #ECECEC;
+}

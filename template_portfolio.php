@@ -169,6 +169,7 @@ if (get_option('rttheme_style')){
 								<li><a href="<?php echo home_url('contact-us'); ?>">Contact Us for help</a></li>
 								<li><a href="<?php echo home_url('bureau-veritas-certification'); ?>">Bureau Veritas Certification</a></li>
 								<li><a href="<?php echo home_url('course-application'); ?>">Apply for another Course</a></li>
+								<li><a href="<?php echo home_url('updated-instructors'); ?>">Updated Instructor's List</a></li>
 							</ul>
 						</div>
 					
