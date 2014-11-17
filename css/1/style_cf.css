@@ -57,7 +57,7 @@
     
     /* different color in home page welcome text */  
     .box.single h3 span{
-        color:#6dd1fb;
+        color:#5CAFD6;
     }
  
  /* Products detail tabs */
@@ -137,7 +137,7 @@
     }
     
     .box.blog .dateandcategories a:hover{
-        color:#6dd1fb;
+        color:#5CAFD6;
     }
         
         
@@ -162,12 +162,12 @@
     }        
 
     .portfolio_categories ul li a:hover{
-        color:#6dd1fb;
+        color:#5CAFD6;
     }
 
     /* Category Links Active Page Style */ 
     .portfolio_categories ul li a.active{
-        color:#6dd1fb;
+        color:#5CAFD6;
     }
 
     .portfolio_categories ul li a.active:hover{
@@ -470,7 +470,7 @@
         
 /* Links */	 
     a{
-        color:#6dd1fb;
+        color:#5CAFD6;
     }
     
     a:hover{
@@ -482,7 +482,7 @@
     }
     
     h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover{
-        color:#6dd1fb;
+        color:#5CAFD6;
     }
         
 /* Headings*/

@@ -201,7 +201,7 @@ File Name: style.css
         
      /* paragraph top space for boxes */ 
     .box p{
-        margin:10px 0 0 0;
+        margin: 1em 0;
         padding:0;
     }
     
@@ -1664,7 +1664,7 @@ form#loginform {
 .manila-ammendment li a {
     display: block;
     text-decoration: none;
-    background: url(../images/icons/check.png) left top no-repeat #EBEBEB;
+    background: url(../images/icons/check.png) left top no-repeat #C8EEEE;
     padding: 0.8em 0.5em;
     padding-left: 3em;
     border-bottom: 1px solid rgb(163, 199, 163);
@@ -1672,11 +1672,27 @@ form#loginform {
 }
 
 .manila-ammendment li a:hover {
-    background: #D3D3D3;
+    background: url(../images/icons/check.png) left top no-repeat #BDE1E1;
     color: #258ee2;
 }
 
 .manila-ammendment li a:visited{
-    background: url(../images/icons/check.png) top right no-repeat #C4FED3;
+    background: url(../images/icons/check.png) top right no-repeat #AFEFB8;
     color: #119BD8;
+}
+
+.cool-button {
+    text-align: center;
+    padding: 0.5em 2em;
+    width: 100%;
+    background: #177BB6;
+    color: #f3f3f3;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 1em 0;
+}
+
+.cool-button:hover {
+    color: #ffffff;
+    background: #4B8FAF;
 }

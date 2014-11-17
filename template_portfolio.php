@@ -21,12 +21,7 @@ if (get_option('rttheme_style')){
 
 		<!-- Porfolio Slider -->
 		<div class="content sub">
-			<h2>
-				<?php global $current_user;
-			      get_currentuserinfo();
-			      echo 'Welcome to your course ' . $current_user->display_name . ':';
-				?>
-			</h2>
+			
 		</div>
 		<!-- Potfolio Slider-->
 		
@@ -158,22 +153,25 @@ if (get_option('rttheme_style')){
 				</div>
 				<div class="sidebar"><div class="sidebars1"><div class="sidebars2">
 					<div class="box small">
-						<h5>About Us</h5>
+						<h4>Welcome: </h4>
+						<h2>
+							<?php global $current_user;
+						      get_currentuserinfo();
+						      echo  $current_user->display_name . ':';
+							?>
+						</h2>
+						<p><small>Today's date is:</small> <br> <?php echo date('l jS \of F Y'); ?></p>
+						<p>After Completing the Material</p>
+						<p><a href="<?php echo home_url() . '/wp-content/uploads/updated-material-for-instructors/z-exams.zip'; ?>" class="cool-button">Download Exams</a></p>
+						<p><small>Please submit by:</small> <br> Sunday 31st of August 2014</p>
 						<div class="menu-rt-theme-footer-navigation-menu-container">
 							<ul id="menu-rt-theme-footer-navigation-menu" class="menu">
-								<li id="menu-item-457" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-457"><a href="http://localhost:8888/training/about/">About Us</a></li>
-								<li id="menu-item-509" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-509"><a href="http://localhost:8888/training/contact-us/">Contact Us</a></li>
-								<li id="menu-item-545" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-545"><a href="http://localhost:8888/training/bureau-veritas-certification/">Bureau Veritas Certification</a></li>
-								<li id="menu-item-547" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-547"><a href="http://localhost:8888/training/course-application/">Apply for our Courses</a></li>
+								<li><a href="<?php echo home_url('contact-us'); ?>">Contact Us for help</a></li>
+								<li><a href="<?php echo home_url('bureau-veritas-certification'); ?>">Bureau Veritas Certification</a></li>
+								<li><a href="<?php echo home_url('course-application'); ?>">Apply for another Course</a></li>
 							</ul>
 						</div>
-					</div>
-					<div class="box small">
-						<h5>Maritime Training Tailored to you</h5>
-						<div class="textwidget">
-							<p>We acknowledge your time and we can tailor courses to your availability.</p>
-							<p>If you wish to learn more about our courses please <a href="/contact-us">contact us today</a></p>
-						</div>
+					
 					</div> 
 		
 				</div></div></div>
